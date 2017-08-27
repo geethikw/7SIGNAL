@@ -2,8 +2,6 @@ package Kata;
 
 //This file contains the Kata task 2,3
 
-import java.util.Scanner;
-
 public class Task2 {
 	
 	static String test1="7,3\n7\n5,6,8";//test Strings
