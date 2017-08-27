@@ -1,7 +1,7 @@
 package Kata;
 
 
-//This file contains the kata task 7, suport different delimiters //;\n
+//This file contains the kata task 6 and 7, do not allow numbers >1000 and suport different delimiters //;\n
 public class Task7 {
 	//test Strings
 	static String test1="\\****\n4****4\n5****6****7";
@@ -67,7 +67,7 @@ public class Task7 {
 				System.out.print(a+",");
 				k++;
 			}else {
-				if(a > 1000) {
+				if(a > 1000) { //Check for numbers greater than 1000
 					
 				}else {
 					stsum += a;
